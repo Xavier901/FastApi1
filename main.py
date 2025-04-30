@@ -21,11 +21,11 @@ user = {1, "Bapi", "bapi@email.com"}
   
    
 
-@app.get("/users")
+@app.get("/")
 def read_root():
-    return  [{'id': 1,
-                    'name':'bapi',
-                    'email':'bapi@email.com' }
-             ]
-    # return  {   'name':'bapi'  }
+    # return  [{'id': 1,
+    #                 'name':'bapi',
+    #                 'email':'bapi@email.com' }
+    #          ]
+     return  {   'name':'bapi'  }
              
